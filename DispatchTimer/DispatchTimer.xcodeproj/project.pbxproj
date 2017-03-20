@@ -13,6 +13,7 @@
 		602213581E7F61CF004616A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602213561E7F61CF004616A2 /* Main.storyboard */; };
 		6022135A1E7F61CF004616A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602213591E7F61CF004616A2 /* Assets.xcassets */; };
 		6022135D1E7F61CF004616A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6022135B1E7F61CF004616A2 /* LaunchScreen.storyboard */; };
+		602213661E7F6292004616A2 /* DispatchTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 602213651E7F6292004616A2 /* DispatchTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		602213591E7F61CF004616A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6022135C1E7F61CF004616A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6022135E1E7F61CF004616A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602213641E7F6292004616A2 /* DispatchTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchTimer.h; sourceTree = "<group>"; };
+		602213651E7F6292004616A2 /* DispatchTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				602213511E7F61CF004616A2 /* AppDelegate.m */,
 				602213531E7F61CF004616A2 /* ViewController.h */,
 				602213541E7F61CF004616A2 /* ViewController.m */,
+				602213641E7F6292004616A2 /* DispatchTimer.h */,
+				602213651E7F6292004616A2 /* DispatchTimer.m */,
 				602213561E7F61CF004616A2 /* Main.storyboard */,
 				602213591E7F61CF004616A2 /* Assets.xcassets */,
 				6022135B1E7F61CF004616A2 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				602213551E7F61CF004616A2 /* ViewController.m in Sources */,
 				602213521E7F61CF004616A2 /* AppDelegate.m in Sources */,
 				6022134F1E7F61CF004616A2 /* main.m in Sources */,
+				602213661E7F6292004616A2 /* DispatchTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

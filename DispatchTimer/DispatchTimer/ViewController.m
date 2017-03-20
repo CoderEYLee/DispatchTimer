@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DispatchTimer.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [DispatchTimer scheduleDispatchTimerWithName:@"test" timeInterval:2.0 queue:nil repeats:YES action:^{
+        NSLog(@"测试");
+    }];
 }
 
 
