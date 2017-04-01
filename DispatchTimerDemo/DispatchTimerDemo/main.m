@@ -1,8 +1,8 @@
 //
 //  main.m
-//  DispatchTimer
+//  DispatchTimerDemo
 //
-//  Created by lieryang on 17/3/20.
+//  Created by lieryang on 2017/4/1.
 //  Copyright © 2017年 lieryang. All rights reserved.
 //
 
